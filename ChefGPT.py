@@ -53,4 +53,4 @@ class ChefGPT:
             print(chunk_message, end="")
             collected_messages.append(chunk_message)
 
-        return collected_messages
+        return "".join(collected_messages)
